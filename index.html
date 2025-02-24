@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="favicon_coffee_bean.ico" />
+    <link rel="icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +26,40 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            class="nav__logo"
+            alt="Logotipo de cafetería Espresso"
+          />
+
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">Recetas</a></li>
+            <li><a href="#" class="nav__link">Reservar una mesa</a></li>
+            <li><a href="#" class="nav__link">Contactos</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="span__accent">Café de especialidad</span> en Triple Peaks
+        </h1>
+        <h2 class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </h2>
+
+        <img
+          src="./images/inside_coffee_shop.png"
+          class="header__image"
+          alt="Image inside a coffeeshop"
+        />
+        <div class="header__footer">
+          <p>Horario:</p>
+          <p>Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <p>Sábados y Domingos (de 11:00h a 18:00h)</p>
+          <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
+        </div>
+      </header>
       <main class="content">
         <section class="recipes"></section>
         <section class="reservation"></section>
