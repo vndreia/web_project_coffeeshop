@@ -53,12 +53,16 @@
           class="header__image"
           alt="Image inside a coffeeshop"
         />
-        <div class="header__timetable">
-          <p class="header__paragraph">Horario:</p>
-          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
-          <p class="header__paragraph">
-            Sábados y Domingos (de 11:00h a 18:00h)
-          </p>
+        <div class="header__footer">
+          <div class="header__timetable">
+            <p class="header__paragraph">Horario:</p>
+            <p class="header__paragraph">
+              Lunes a Viernes (de 10:00h a 19:00h)
+            </p>
+            <p class="header__paragraph">
+              Sábados y Domingos (de 11:00h a 18:00h)
+            </p>
+          </div>
           <div class="header__address">
             <p class="header__paragraph">
               Avenida del Éxito 200, Ciudad Triple Peaks
@@ -66,8 +70,44 @@
           </div>
         </div>
       </header>
+      <!--Header end-->
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes">
+          <!--Recipes section-->
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">
+            Echa un vistazo a las recetas que hemos reunido para que elabores
+            tus propios snacks.
+          </h3>
+          <div class="recipes__videos">
+            <div class="recipes__video-item"></div>
+            <div class="recipes__iframe">
+              <iframe
+                src="https://www.youtube.com/embed/vQVTNscQY0c?si=Bveu4s6lkvrsb-rb"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">Receta en Aeropress</p>
+              <p class="recipes__video-caption">~5 min</p>
+            </div>
+            <div class="recipes__video-item"></div>
+            <div class="recipes__iframe">
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8?si=lmAYUHwWyyV9MPdz"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <p class="recipes__video-caption">Receta en cafetera francesa</p>
+              <p class="recipes__video-caption">~15 min</p>
+            </div>
+          </div>
+        </section>
         <section class="reservation"></section>
       </main>
       <footer class="footer"></footer>
