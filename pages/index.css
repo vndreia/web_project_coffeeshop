@@ -1,3 +1,5 @@
+
+/*Header block*/
 .page {
   max-width: 1600px;
   min-width: 1100px;
@@ -115,6 +117,8 @@
   bottom: 40px;
 }
 
+
+/*Recipes__section*/
 .content {
   display: block;
 }
@@ -139,7 +143,6 @@
   font-size: 44px;
   line-height: 52px;
   max-width: 580px;
-  padding-top: 100px; /*Por qué aquí padding en vez de margin, cuando usar una u otra*/
   margin-left: 80px;
 }
 
@@ -150,38 +153,34 @@
   font-size: 20px;
   line-height: 30px;
   padding-top: 24px;
-  margin-left: 80px; /*Creo que se usó padding en vez de position porque no hayun contenedor*/
+  margin-left: 80px;
   max-width: 438px;
 }
 
-/*Aquí comenzaron todos los problemas*/
 .recipes__videos {
   margin: 80px auto 215px;
   display: flex;
-  width: 1000px; /*?*/
+  width: 1000px;
   height: 273px;
   padding: 0;
-  box-sizing: border-box; /*?*/
+  box-sizing: border-box;
 }
 
 .recipes__video-item {
-  /*4 contenido por 3*/
   display: flex;
-  width: 100%; /*?*/
+  width: 100%;
   justify-content: space-between;
   column-gap: 40px;
   border: 0;
 }
 
 .recipes__iframe {
-  /*5*/
   border: 0;
   width: 480px;
   height: 273px;
 }
 
 .recipes__video-caption {
-  /*6*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -193,6 +192,7 @@
   margin-top: 24px;
 }
 
+/*Reservation_-section*/
 .reservation {
   height: 100vh;
   background-color: #d9e7ff;
